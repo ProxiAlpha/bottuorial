@@ -53,19 +53,19 @@ Sandboxie installieren, öffnen...
 
 Erstelle eine neue Sandbox, alle standard Einstellungen, immer weiter klicken.
 Nutze einfachen Namen wie "bot01", wir benutzen diesen namen später in LibreAutomate.
-![[sandbox1.png]]
+![sandbox1](images/sandbox1.png ":no-zoom")  
 Nach der erstellung, rechts-click auf bot01, und folgende einstellungen vornehmen:
 ![[sandbox3 1.png]]
 Für jeden bot, box duplizieren:
-![[sandbox2.png]]
+![sandbox2](images/sandbox2.png ":no-zoom")  
 Und natürlich umbenennen; bot02, bot03, bot04....
 
 
 Bei diesem schritt musst du schnell sein: mit rechts-click den doomsday launcher über sandboxie laufen:
-![[sandboxie55.png]]
+![sandboxie55](images/sandboxie55.png ":no-zoom")  
 Sobald der launcher läuft
 Schnell rechts-click auf den Launcher.exe im sandboxie hauptfenster und Verknüpfung erstellen.
-![[sandbox4.png]]
+![sandbox4](images/sandbox4.png ":no-zoom")  
 Das ist der shortcut, der den Bot startet, ohne die lästige konto eingaberei.
 
 Wiederholen für jeden Bot.
@@ -98,7 +98,7 @@ Installiere und starte Macro Recorder (schalte vollversion frei)
 ![[IF IMAGE.png]]
 4. Insert > Delay 5ms
 5. Insert > Mouse Command
-![MOUSE CLICK](images/MOUSE_CLICK.png ":no-zoom")  
+![MOUSECLICK](images/MOUSECLICK.png ":no-zoom")  
 6. Delay 25ms
 7. Insert > REPEAT X TIMES > END REPEAT
 8. Insert > IF > ELSE
@@ -130,7 +130,7 @@ Warten bis geladen.
 Zeige über dem fenster, und drücke Strg+Shift+W
 Folgendes fenster öffnet sich:
 Notiere die zwei werte "name" und "class"
-![[automate1.png]]
+![automate1](images/automate1.png ":no-zoom")  
 
 
 
