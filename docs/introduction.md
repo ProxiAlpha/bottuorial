@@ -98,26 +98,26 @@ Installiere und starte Macro Recorder (schalte vollversion frei)
 ![[IF IMAGE.png]]
 4. Insert > Delay 5ms
 5. Insert > Mouse Command
-![[MOUSE CLICK.png]]
+![MOUSE CLICK](images/MOUSE_CLICK.png ":no-zoom")  
 6. Delay 25ms
 7. Insert > REPEAT X TIMES > END REPEAT
 8. Insert > IF > ELSE
 9. Insert > GOTO > allyhelp
 
 Fertiges auto-clicker script sieht dann so aus:
-![[recorder2.png]]
+![recorder2](images/recorder2.png ":no-zoom")  
 
 Speichern nicht vergessen!
 
 **Strg+Space** - startet und pausiert das skript.
 
 
-> [!success] Macro Recorder einrichtung Abgeschlossen.
+Macro Recorder einrichtung Abgeschlossen.
 
 
 
 
-> [!todo] LibreAutomate
+LibreAutomate
 [Official page](https://www.libreautomate.com/ )
 
 Benötigen wir um die bot fenster zu verkleinern. Der PC client lässt keine kleinere lösung zu als im spiel einstellbar.
