@@ -1,4 +1,4 @@
-!> Konto Verwaltung
+# Konto Verwaltung
 
 Wir benötigen eine email adresse pro Konto. 
 Einfachste lösung, mit Gmail. Einfach die mail mit ein plus "+" ergänzen, und beliebige bezeichnung.  "+bot01"
@@ -18,7 +18,7 @@ Konto Verwaltung Abgeschlossen.
 
 
 
-## PC Client einrichtung
+# PC Client einrichtung
 
 Als anhaltspunkt, meine hardware, damit kriege ich 10 bots hin.
 i7 6700K @ 4.2Ghz 4C/8T
@@ -43,7 +43,7 @@ PC Client einrichtung Abgeschlossen.
 
 
 
-## Sandboxie Plus
+# Sandboxie Plus
 [Download from github](https://github.com/sandboxie-plus/Sandboxie/releases/tag/v1.15.12 )
 
 Benötigen wir um die bots voneinander akzukapseln, mit eigenem gespeichertem login. Sonst müsste man jedesmal, bei jedem bot, email und passwort eingeben.
@@ -74,7 +74,7 @@ Sandboxie einrichtung Abgeschlossen.
 
 
 
-## Jitbit Macro Recorder
+# Jitbit Macro Recorder
 [Download basic version from Jitbit](https://www.jitbit.com/macro-recorder/)
 
 Benötigen wir für die bilder erkennung, und automatisches klicken.
@@ -91,14 +91,14 @@ Installiere und starte Macro Recorder (schalte vollversion frei)
 1. Insert > LABEL > allyhelp (Label wird benötigt für unendlich loop)
 2. Insert > REPEAT X TIMES > Repeat 500000
 3. Insert > If Image Found > Capture (Hilfe knopf eingrenzen)
-![[IF IMAGE.png]]
-4. Insert > Delay 5ms
-5. Insert > Mouse Command
+![ifimagecreate](images/ifimagecreate.gif ":no-zoom")  
+5. Insert > Delay 5ms
+6. Insert > Mouse Command
 ![MOUSECLICK](images/MOUSECLICK.png ":no-zoom")  
-6. Delay 25ms
-7. Insert > REPEAT X TIMES > END REPEAT
-8. Insert > IF > ELSE
-9. Insert > GOTO > allyhelp
+7. Delay 25ms
+8. Insert > REPEAT X TIMES > END REPEAT
+9. Insert > IF > ELSE
+10. Insert > GOTO > allyhelp
 
 Fertiges auto-clicker script sieht dann so aus:
 ![recorder2](images/recorder2.png ":no-zoom")  
@@ -111,7 +111,7 @@ Speichern nicht vergessen!
 Macro Recorder einrichtung Abgeschlossen.
 
 
-## LibreAutomate
+# LibreAutomate
 [Official page](https://www.libreautomate.com/ )
 
 Benötigen wir um die bot fenster zu verkleinern. Der PC client lässt keine kleinere lösung zu als im spiel einstellbar.
@@ -151,7 +151,7 @@ w1.Resize(648, 490);
 
 And repeat for each bot, sequential, w2, w3 etc
 
-> [!DANGER] Complete first time setup before continuing
+> Complete first time setup before continuing
 > Start with Bot 01
 > Use sandboxie shortcut
 > Wait till opens
