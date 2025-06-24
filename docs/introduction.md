@@ -13,12 +13,12 @@ Falls namen/vorname für die Kontos benötigt werden, werde kreativ, alternativ
 
 Speicher die addressen und passwörter irgendwo.
 
-> [!success] Konto Verwaltung Abgeschlossen.
+Konto Verwaltung Abgeschlossen.
 
 
 
 
-> [!todo] PC Client einrichtung
+## PC Client einrichtung
 
 > [!todo]- Als anhaltspunkt, meine hardware, damit kriege ich 10 bots hin.
 i7 6700K @ 4.2Ghz 4C/8T
@@ -31,20 +31,19 @@ Installationsordner "Doomsday" kopieren
 Und mehrmals einfügen für anzahl von bots
 Umbenennen, "bot01, bot02" usw.
 
-> [!warning] Bei spiel Update
+Bei spiel Update
 Wenn update verfügbar, nur ein client aktualisieren.
 In dem aktualisierten ordner gehen, und den ordner mit der neuen version kopieren und bei jedem weiteren bot einfügen.
 Beispiel "1.45.0" kopieren, einfügen.
 Alte version "1.43.2" in allen ordnern löschen.
 Anschliessend alle bots mal starten.
 
-
-> [!success] PC Client einrichtung Abgeschlossen.
-
+PC Client einrichtung Abgeschlossen.
 
 
 
-> [!todo] Sandboxie Plus
+
+## Sandboxie Plus
 [Download from github](https://github.com/sandboxie-plus/Sandboxie/releases/tag/v1.15.12 )
 
 Benötigen wir um die bots voneinander akzukapseln, mit eigenem gespeichertem login. Sonst müsste man jedesmal, bei jedem bot, email und passwort eingeben.
@@ -71,14 +70,11 @@ Das ist der shortcut, der den Bot startet, ohne die lästige konto eingaberei.
 Wiederholen für jeden Bot.
 Launcher02 mit sandbox 02, Launcher03 mit sandbox03 usw.
 
-
-
-> [!success] Sandboxie einrichtung Abgeschlossen.
-
+Sandboxie einrichtung Abgeschlossen.
 
 
 
-> [!todo] Jitbit Macro Recorder
+## Jitbit Macro Recorder
 [Download basic version from Jitbit](https://www.jitbit.com/macro-recorder/)
 
 Benötigen wir für die bilder erkennung, und automatisches klicken.
@@ -115,9 +111,7 @@ Speichern nicht vergessen!
 Macro Recorder einrichtung Abgeschlossen.
 
 
-
-
-LibreAutomate
+## LibreAutomate
 [Official page](https://www.libreautomate.com/ )
 
 Benötigen wir um die bot fenster zu verkleinern. Der PC client lässt keine kleinere lösung zu als im spiel einstellbar.
@@ -141,10 +135,6 @@ Move bot 5x10.script
 
 
 Simple variable to find named window (use the naming scheme assigned in sandboxie), make it active (activate), resize and finally reposition it.
-
-> [!NOTE] Caveat
-> The PC client simply won't allow a smaller resize than the lowest in game resolution (58px730), so we need to force resize the window.
-
 
 
 ~~~C#
