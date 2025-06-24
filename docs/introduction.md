@@ -1,4 +1,4 @@
-> [!todo] Konto Verwaltung
+!> Konto Verwaltung
 
 Wir benötigen eine email adresse pro Konto. 
 Einfachste lösung, mit Gmail. Einfach die mail mit ein plus "+" ergänzen, und beliebige bezeichnung.  "+bot01"
