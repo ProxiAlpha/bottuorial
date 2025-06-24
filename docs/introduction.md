@@ -20,7 +20,7 @@ Konto Verwaltung Abgeschlossen.
 
 ## PC Client einrichtung
 
-> [!todo]- Als anhaltspunkt, meine hardware, damit kriege ich 10 bots hin.
+Als anhaltspunkt, meine hardware, damit kriege ich 10 bots hin.
 i7 6700K @ 4.2Ghz 4C/8T
 16GB DDR4 RAM 2600
 500GB nvme SSD
@@ -54,7 +54,7 @@ Erstelle eine neue Sandbox, alle standard Einstellungen, immer weiter klicken.
 Nutze einfachen Namen wie "bot01", wir benutzen diesen namen später in LibreAutomate.
 ![sandbox1](images/sandbox1.png ":no-zoom")  
 Nach der erstellung, rechts-click auf bot01, und folgende einstellungen vornehmen:
-![[sandbox3 1.png]]
+![sandbox3](images/sandbox3.png ":no-zoom")  
 Für jeden bot, box duplizieren:
 ![sandbox2](images/sandbox2.png ":no-zoom")  
 Und natürlich umbenennen; bot02, bot03, bot04....
